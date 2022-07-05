@@ -1,0 +1,13 @@
+name: ml-yrp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.3.5
+  - matplotlib=3.4.3
+  - scipy=1.7.3
+  - numpy=1.19.5
+  - scikit-learn=1.0.2
+  - pip
+  - wheel
