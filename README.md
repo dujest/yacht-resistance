@@ -16,4 +16,18 @@ However, in a real sailing situation, the total resistance gets more complicated
 
 Therefore, prediction of residuary resistance of sailing yachts at the initial design stage is of a great value for evaluating the ship’s performance and for estimating the required propulsive power.
 
-[The dataset](http://archive.ics.uci.edu/ml/datasets/Yacht+Hydrodynamics) comprises the non-dimensional hull ratios, yacht speed (Froude number) and measured values of the residuary resistance per unit weight of displacement.
+[The dataset](http://archive.ics.uci.edu/ml/datasets/Yacht+Hydrodynamics) comprises the non-dimensional hull ratios, yacht speed (the Froude number) and measured values of the residuary resistance per unit weight of displacement:
+
+$L_{CB}$ - *Centre of bouyancy* 
+
+$C_{p}$ - *Prismatic coefficient*
+
+$\frac{L_{WL}}{\nabla_{c}^{1/3}}$ - *Length/displacement ratio*
+
+$\frac{B_{WL}}{T_{c}}$ - *Beam/draft ratio*
+
+$\frac{L_{WL}}{B_{WL}}$ - *Length/beam ratio*
+
+$F_{n}$ - *Froude number*
+
+$\frac{R_{R}}{g \cdot m_{c}} \cdot 10^3$ - *residuary resistance per unit weight of displacement*
