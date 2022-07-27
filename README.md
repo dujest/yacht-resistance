@@ -1,5 +1,7 @@
 # End-to-end ML project
 
+<img src="https://drive.google.com/uc?id=1yEblTg9yQ2_qGoiiCHOHp1JxuttgnrOo" width="40%" >
+
 ## Yacht residuary resistance prediction ⛵
 
 The resistance curve for the YD-40 yacht, towed upright in smooth water, is shown in the next figure.
