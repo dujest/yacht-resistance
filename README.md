@@ -31,3 +31,6 @@ $\frac{L_{WL}}{B_{WL}}$ - *Length/beam ratio*
 $F_{n}$ - *Froude number*
 
 $\frac{R_{R}}{g \cdot m_{c}} \cdot 10^3$ - *residuary resistance per unit weight of displacement*
+
+## References
+L. Larsson and R. E. Eliasson, Principles of Yacht Design, Adlard Coles Nautical, 2000.
