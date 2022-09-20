@@ -1,18 +1,43 @@
 # End-to-end ML project
 
-<img src="https://drive.google.com/uc?id=1yEblTg9yQ2_qGoiiCHOHp1JxuttgnrOo" width="40%" >
+According to the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/), written by Aurélien Géron, there are eight main steps to end-to-end Machine Learning project:
+1. Frame the problem and look at the big picture.
+2. Get the data.
+3. Explore the data to gain insights.
+4. Prepare the data to better expose underlying data patterns to Machine Learning alghoritms.
+5. Explore many different models and shortlist the best one.
+6. Fine tune your models and combine them into a great soltuion.
+7. Present your solution.
+8. Lunch, monitor, and maintain your system.
 
-## Yacht residuary resistance prediction ⛵
+# 1. Frame the problem and look at the big picture
+
+This project is framed as:
+- **supervised learning task** (since the dataset is labeled or each instance comes with the expected output - resistance force)
+- **regression task** (since the model has to predict a value)
+- **multiple regression problem** (since the model will use multiple features to make a prediction)
+- **univariate regression problem** (since the model will predict a single value for each instance)
+- **batch learning** (there is no continuous flow of data coming into the model and and the data is small enough to fit in memory)
+
+<p align="center">
+<img src="https://drive.google.com/uc?id=1yEblTg9yQ2_qGoiiCHOHp1JxuttgnrOo" width="40%" >
+</p>
+
+## The residuary resistance of sailing yachts ⛵
 
 The resistance curve for the YD-40 yacht, towed upright in smooth water, is shown in the next figure.
 
+<p align="center">
 <img src="https://drive.google.com/uc?id=1GIPdBzmPdTQadjAt6PwSGpo8lcLDTYw_" width="50%" >
+</p>
 
 The total or upright resistance consists of the viscous resistance, dominating component at low speeds, and the wave resistance, which occurs because the hull generates waves, transferring the energy away.
 
 However, in a real sailing situation, the total resistance gets more complicated and the residuary resistance is the biggest component of the total force.
 
+<p align="center">
 <img src="https://drive.google.com/uc?id=1PynJPYe4dSizE9y-huzpB96x0EzBA95e" width="50%" >
+</p>
 
 Therefore, prediction of residuary resistance of sailing yachts at the initial design stage is of a great value for evaluating the ship’s performance and for estimating the required propulsive power.
 
@@ -32,5 +57,7 @@ $F_{n}$ - *Froude number*
 
 $\frac{R_{R}}{g \cdot m_{c}} \cdot 10^3$ - *residuary resistance per unit weight of displacement*
 
-## References
-L. Larsson and R. E. Eliasson, Principles of Yacht Design, Adlard Coles Nautical, 2000.
+# References
+[1] A. Géron, Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, O'Reilly Media, 2019.
+
+[2] Larsson and R. E. Eliasson, Principles of Yacht Design, Adlard Coles Nautical, 2000.
