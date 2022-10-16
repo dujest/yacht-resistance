@@ -1,6 +1,6 @@
 # End-to-end ML project
 
-According to the book [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/), there are eight main steps to an end-to-end Machine Learning project:
+The main steps to an end-to-end Machine Learning project are:
 1. Frame the problem and look at the big picture.
 2. Get the data.
 3. Explore the data to gain insights.
@@ -61,7 +61,7 @@ However, in a real sailing situation, the total resistance gets more complicated
 
 Hence, prediction of residuary resistance of sailing yachts at the initial design stage is of a great value for evaluating the ship’s performance and for estimating the required propulsive power.
 
-# References
-[1] A. Géron, Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, O'Reilly Media, 2019.
+## References
+[1] [A. Géron, Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition, O'Reilly Media, 2019.](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 
-[2] Larsson and R. E. Eliasson, Principles of Yacht Design, Adlard Coles Nautical, 2000.
+[2] [Larsson and R. E. Eliasson, Principles of Yacht Design, Adlard Coles Nautical, 2000.](https://www.amazon.com/Principles-Yacht-Design-Lars-Larsson/dp/0071353933)
