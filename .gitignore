@@ -1,5 +1,3 @@
 .ipynb_checkpoints
 *.ipynb
 !yacht_resistance_prediction.ipynb
-images/
-images/**/*.png
