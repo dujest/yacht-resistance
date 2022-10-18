@@ -22,7 +22,7 @@ The main steps to an end-to-end Machine Learning project are:
 
 [The dataset](http://archive.ics.uci.edu/ml/datasets/Yacht+Hydrodynamics) comprises the non-dimensional hull ratios, yacht velocity (the Froude number) and experimentally measured values of the residuary resistance:
 
-$L_{CB}$ - *Centre of bouyancy*, 
+$L_{CB}$ - *Longitudinal centre of buoyancy*, 
 
 $C_{p}$ - *Prismatic coefficient*,
 
@@ -51,7 +51,7 @@ The resistance curve for the YD-40 yacht, towed upright in smooth water, is show
 <img src="https://drive.google.com/uc?id=1GIPdBzmPdTQadjAt6PwSGpo8lcLDTYw_" width="50%" >
 </p>
 
-The total or upright resistance consists of the viscous resistance, dominating component at low speeds, and the wave resistance, which occurs because the hull generates waves, transferring the energy away.
+The total or upright resistance consists of the viscous resistance, dominating component at low speeds, and the wave resistance, which occurs because the hull generates waves, thereby transferring the energy away.
 
 However, in a real sailing situation, the total resistance gets more complicated and the residuary resistance (wave resitance + viscous pressure resistance) is the biggest component of the total force.
 
