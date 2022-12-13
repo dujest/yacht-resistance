@@ -2,3 +2,4 @@
 *.ipynb
 !yacht_resistance_prediction.ipynb
 env/
+__pycache__/
