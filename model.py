@@ -99,8 +99,6 @@ def predict_resistance(parameters, model):
     df_tr["Froude_Number"] = (df["velocity"] * kt_ms) / \
         np.sqrt(g * df["length_wl"])
 
-    print(df_tr)
-
     """
                          Resistance * 1000   
         y_predicted = ------------------------
@@ -114,11 +112,7 @@ def predict_resistance(parameters, model):
 
     prepared_df = yacht_pipeline.transform(df_tr.to_numpy())
 
-    print(prepared_df)
-
     y_predicted = model.predict(prepared_df)
-
-    print(y_predicted)
 
     rho = 1025
 
