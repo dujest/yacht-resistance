@@ -8,7 +8,7 @@ The main steps to an end-to-end Machine Learning project are:
 5. Explore many different models and shortlist the best one.
 6. Fine tune your models and combine them into a great solution.
 7. Present your solution.
-8. Lunch, monitor, and maintain your system.
+8. Launch, monitor, and maintain your system.
 
 # 1. Frame the problem and look at the big picture
 
